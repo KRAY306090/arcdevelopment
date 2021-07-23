@@ -1,6 +1,6 @@
 import { createTheme } from '@material-ui/core/styles';
 
-const arcBlue = "#0b7289";
+const arcBlue = "#0b72b9";
 const arcOrange = "#ffba60";
 
 const theme = createTheme({
@@ -17,8 +17,17 @@ const theme = createTheme({
         }
     },
     typography: {
-        h3: {
-            fontWeight: '300'
+        tab: {
+            fontFamily: 'Raleway',
+            textTransform: 'none',
+            fontWeight: 700,
+            fontSize: '1rem',
+        },
+        estimate: {
+            fontFamily: 'Pacifico',
+            fontSize: '1rem',
+            textTransform: 'none',
+            color: 'white'
         }
     }
 });
